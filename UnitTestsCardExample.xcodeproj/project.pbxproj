@@ -19,6 +19,7 @@
 		118858611A8DBDD5004012DD /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 118858601A8DBDD5004012DD /* PlayingCard.m */; };
 		118858641A8DBE2D004012DD /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 118858631A8DBE2D004012DD /* Deck.m */; };
 		118858671A8DBE52004012DD /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 118858661A8DBE52004012DD /* PlayingCardDeck.m */; };
+		118858691A8DCAE6004012DD /* CardTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 118858681A8DCAE6004012DD /* CardTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		118858631A8DBE2D004012DD /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		118858651A8DBE52004012DD /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		118858661A8DBE52004012DD /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		118858681A8DCAE6004012DD /* CardTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				1188584E1A8DBBC0004012DD /* UnitTestsCardExampleTests.m */,
+				118858681A8DCAE6004012DD /* CardTestCase.m */,
 				1188584C1A8DBBC0004012DD /* Supporting Files */,
 			);
 			path = UnitTestsCardExampleTests;
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1188584F1A8DBBC0004012DD /* UnitTestsCardExampleTests.m in Sources */,
+				118858691A8DCAE6004012DD /* CardTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

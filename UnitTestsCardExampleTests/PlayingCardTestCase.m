@@ -1,6 +1,6 @@
 //
-//  UnitTestsCardExampleTests.m
-//  UnitTestsCardExampleTests
+//  PlayingCardTestCase.m
+//  UnitTestsCardExample
 //
 //  Created by Zac on 13/02/2015.
 //  Copyright (c) 2015 1st1k. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface UnitTestsCardExampleTests : XCTestCase
+@interface PlayingCardTestCase : XCTestCase
 
 @end
 
-@implementation UnitTestsCardExampleTests
+@implementation PlayingCardTestCase
 
 - (void)setUp {
     [super setUp];

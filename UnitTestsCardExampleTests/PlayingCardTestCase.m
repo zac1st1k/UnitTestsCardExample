@@ -41,7 +41,7 @@
 - (void)testTheValidSuits
 {
     NSArray *theSuits = [PlayingCard validSuits];
-    int howMany = [theSuits count];
+    int howMany = (int)[theSuits count];
     XCTAssertEqual(howMany, 4, @"Should be only 4");
     XCTAssertTrue([theSuits containsObject:@"♥"], "@Must have a heart");
     XCTAssertTrue([theSuits containsObject:@"♦"], "@Must have a diamond");

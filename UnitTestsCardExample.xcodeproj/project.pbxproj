@@ -20,6 +20,7 @@
 		118858671A8DBE52004012DD /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 118858661A8DBE52004012DD /* PlayingCardDeck.m */; };
 		118858691A8DCAE6004012DD /* CardTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 118858681A8DCAE6004012DD /* CardTestCase.m */; };
 		1188586B1A8DD7B6004012DD /* PlayingCardTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1188586A1A8DD7B6004012DD /* PlayingCardTestCase.m */; };
+		1188586D1A8F04D6004012DD /* DeckTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1188586C1A8F04D6004012DD /* DeckTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		118858661A8DBE52004012DD /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 		118858681A8DCAE6004012DD /* CardTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTestCase.m; sourceTree = "<group>"; };
 		1188586A1A8DD7B6004012DD /* PlayingCardTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardTestCase.m; sourceTree = "<group>"; };
+		1188586C1A8F04D6004012DD /* DeckTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				118858681A8DCAE6004012DD /* CardTestCase.m */,
 				1188586A1A8DD7B6004012DD /* PlayingCardTestCase.m */,
+				1188586C1A8F04D6004012DD /* DeckTestCase.m */,
 				1188584C1A8DBBC0004012DD /* Supporting Files */,
 			);
 			path = UnitTestsCardExampleTests;
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1188586B1A8DD7B6004012DD /* PlayingCardTestCase.m in Sources */,
+				1188586D1A8F04D6004012DD /* DeckTestCase.m in Sources */,
 				118858691A8DCAE6004012DD /* CardTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +458,7 @@
 				118858541A8DBBC0004012DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		118858551A8DBBC0004012DD /* Build configuration list for PBXNativeTarget "UnitTestsCardExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +467,7 @@
 				118858571A8DBBC0004012DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
